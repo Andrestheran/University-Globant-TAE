@@ -11,6 +11,7 @@ public  abstract class Teacher {
         this.baseSalary = baseSalary;
     }
 
+    //Getters and Setters
     public int getId() {
         return id;
     }
