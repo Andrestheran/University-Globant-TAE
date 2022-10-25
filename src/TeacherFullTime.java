@@ -7,6 +7,7 @@ public class TeacherFullTime extends Teacher{
         this.yearsOfExperience = yearsOfExperience;
     }
 
+    // Getter and Setter
     public int getYearsOfExperience() {
         return yearsOfExperience;
     }

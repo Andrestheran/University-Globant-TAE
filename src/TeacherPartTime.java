@@ -7,6 +7,7 @@ public class TeacherPartTime extends Teacher{
         this.activeHoursWeek = activeHoursWeek;
     }
 
+    //Getter and Setter
     public float getActiveHoursWeek() {
         return activeHoursWeek;
     }
@@ -26,6 +27,6 @@ public class TeacherPartTime extends Teacher{
 
     @Override
     public float calculateSalary() {
-        return  getBaseSalary() * (1);
+        return  getBaseSalary() * ((1/4F)/48F) * this.activeHoursWeek;
     }
 }
