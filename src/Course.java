@@ -22,37 +22,48 @@ public class Course {
     //Getters and Setters
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public int getId() {
+
         return id;
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
     public Teacher getTeacher() {
+
         return teacher;
     }
 
     public void setTeacher(Teacher teacher) {
+
         this.teacher = teacher;
     }
 
     public int getClassRoom() {
+
         return classRoom;
     }
 
     public void setClassRoom(int classRoom) {
+
         this.classRoom = classRoom;
     }
 
+    public void setAddStudent( Student student){
+        this.studentList.add(student);
+    }
     public List<Student> getStudentList() {
         return studentList;
     }
