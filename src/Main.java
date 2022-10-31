@@ -35,7 +35,9 @@ public class Main {
         boolean isMenuActive = true;
 
         while(isMenuActive){
-            System.out.println("Choose an option form the list: \n" +
+            System.out.println("Welcome to Globant University \n" +
+                    "Choose an option form the list: \n" +
+
                     "1. Check Students. \n" +
                     "2. Add Students to the system \n" +
                     "3. Check Courses. \n" +
