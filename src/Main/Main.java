@@ -1,3 +1,5 @@
+package Main;
+
 import java.util.Scanner;
 
 
@@ -113,7 +115,7 @@ public class Main {
                     Scanner subMenuScanner2 = new Scanner(System.in);
                     System.out.println("Select an option: \n" +
                             "1. Create Course \n" +
-                            "2. Add Student \n" +
+                            "2. Add University.Student \n" +
                             "0. Return");
                     int subMenuOpt2 = subMenuScanner2.nextInt();
 
@@ -138,7 +140,7 @@ public class Main {
                             break;
                         case 2:
                             Scanner subMenu4 = new Scanner(System.in);
-                            System.out.println("Type Student ID");
+                            System.out.println("Type University.Student ID");
                             int studentId = subMenu4.nextInt();
                             System.out.println("Type ID of the course where the student will be added");
                             int courseId = subMenu4.nextInt();
@@ -171,7 +173,7 @@ public class Main {
                     System.out.println("Select kind of Teacher contract: \n" +
                             "1. Part Time \n" +
                             "2. Full Time \n" +
-                            "0. Back to Main Menu" );
+                            "0. Back to Main.Main Menu" );
                     Scanner subMenuScanner = new Scanner(System.in);
                     int subMenuOpt1 = subMenuScanner.nextInt();
                     switch (subMenuOpt1){
